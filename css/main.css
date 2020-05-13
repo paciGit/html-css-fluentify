@@ -1,0 +1,271 @@
+/* Corpo totale */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+header {
+  background-color: #0d325a;
+}
+
+/* Nav */
+
+ul {
+list-style-type: none;
+}
+
+nav a {
+font-weight: bold;
+font-size: 11px;
+color: white;
+text-decoration: none;
+}
+
+nav {
+margin: auto;
+width: 85vw;
+box-sizing: border-box;
+}
+
+nav div {
+display: inline-block;
+vertical-align: middle;
+box-sizing: border-box;
+}
+
+/* Logo, azioni e Servizi */
+
+.logo li, .servizi li {
+float: left;
+padding: 5px 5px;
+margin: 20px 5px;
+}
+
+.azioni li {
+float: right;
+padding: 5px 20px;
+margin: 20px 5px;
+}
+
+.logo {
+width: 15%;
+}
+
+.servizi {
+width: 45%;
+}
+
+.azioni {
+width: 38%;
+}
+
+#login {
+border: 1px solid #4e8cb6;
+border-radius: 5px;
+}
+
+#piano {
+background: #7fb802;
+border-radius: 5px;
+border: 1px solid #7fb802;
+}
+
+/* Cover */
+
+.cover {
+  background-color:#0d325a;
+  height: 55vh;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.cover .left, .right {
+  width: 55%;
+  height: 100%;
+}
+
+.cover .left h1 {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 30px
+}
+
+.cover .left a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 15px 25px;
+  border-radius: 5px;
+  background: #7fb802;
+  margin: 25px 0px;
+}
+
+.cover .left {
+  position: absolute;
+  top:20%;
+  left: 10%;
+}
+
+.cover .right {
+  background: url(../img/jumbo.png);
+  background-size: cover;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
+
+/* Main */
+
+/* Prima riga */
+
+.prima-riga {
+  background: #d2d1d1;
+  text-align: center;
+  padding: 40px 20px 30px 20px;
+}
+
+.prima-riga h3 {
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 8px;
+}
+
+.prima-riga h4 {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 8px;
+  color: #999;
+}
+
+/* Seconda riga */
+
+.seconda-riga {
+  width: 95%;
+  margin: 20px auto;
+  text-align: center;
+  box-sizing: border-box;
+  border-bottom: solid 1px lightgrey;
+}
+
+.seconda-riga .col {
+  width: 30%;
+  height: auto;
+  margin: 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.seconda-riga img {
+  width: auto;
+  height: 160px;
+  margin-bottom: 55px;
+}
+
+.seconda-riga h3 {
+  font-size: 23px;
+  color: #7fb802;
+  font-weight: normal;
+  min-height: 50px;
+  line-height: 1.1;
+}
+
+.seconda-riga p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 25px;
+  color: #999;
+  padding: 20px;
+}
+
+.seconda-riga hr {
+  width: 32px;
+  border: 1px solid;
+  margin: 1rem auto;
+  color: rgb(195, 196, 197);
+}
+
+/* Terza riga */
+
+.terza-riga {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+.terza-riga .colonna {
+  width: 48%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.terza-riga .colonna img {
+  height: 350px;
+  width: 100%;
+  margin: auto;
+}
+
+.terza-riga h3 {
+  color: #4a4a4a;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  width: 70%;
+  margin: auto;
+}
+
+.terza-riga p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21px;
+  color: #999;
+  width: 70%;
+  margin: 20px auto;
+}
+
+.terza-riga a {
+  color: #98c8f8;
+}
+
+/* Quarta riga */
+
+.quarta-riga {
+  background: #d2d1d1;
+  text-align: center;
+  padding: 40px 20px 30px 20px;
+  position: relative;
+}
+
+#struttura-piano {
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+}
+
+#seleziona-piano {
+  position: absolute;
+  right: 10%;
+  bottom: 20%;
+}
+
+select .ruolo {
+  background-color: #d2d1d1;
+}
+
+div h3 {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+div input {
+  background: #7fb802;
+  border-radius: 1px;
+  padding: 5px;
+  border: 1px solid #7fb802;
+}
