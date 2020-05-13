@@ -29,13 +29,11 @@ text-decoration: none;
 nav {
 margin: auto;
 width: 85vw;
-box-sizing: border-box;
 }
 
 nav div {
 display: inline-block;
 vertical-align: middle;
-box-sizing: border-box;
 }
 
 /* Logo, azioni e Servizi */
@@ -81,7 +79,6 @@ border: 1px solid #7fb802;
   background-color:#0d325a;
   height: 55vh;
   position: relative;
-  box-sizing: border-box;
 }
 
 .cover .left, .right {
@@ -149,11 +146,10 @@ border: 1px solid #7fb802;
   width: 95%;
   margin: 20px auto;
   text-align: center;
-  box-sizing: border-box;
   border-bottom: solid 1px lightgrey;
 }
 
-.seconda-riga .col {
+.seconda-riga .colonna {
   width: 30%;
   height: auto;
   margin: 15px;
